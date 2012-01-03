@@ -1,0 +1,3 @@
+$(function() {
+  Cufon.replace('.tagline');
+});

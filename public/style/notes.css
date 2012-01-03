@@ -1,0 +1,37 @@
+.add-note {
+}
+
+.add-note .note-form {
+  display: none;
+  margin: 20px auto;
+  width: 600px;
+}
+
+
+#body-text, #author {
+  width: 450px;
+}
+
+#body-text {
+  min-height: 200px;
+}
+
+section.notes {
+  margin: 30px 0;
+}
+
+section.notes div.template {
+  display: none;
+}
+
+section.notes div.note {
+  margin-top: 30px;
+}
+
+section.notes .highlighted {
+  background-color: #FFF6D9;
+}
+
+section.notes div.note div.note-body {
+  padding-top: 10px;
+}

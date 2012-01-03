@@ -1,0 +1,43 @@
+.home-header, .hero-unit {
+  margin-top: 30px;
+}
+
+h1, footer {
+  font-family: "Myriad Pro", sans-serif;
+}
+
+.home-header h1 {
+  font-size: 3.7em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-header p.tagline {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+img.callout {
+  display: block;
+  margin: 20px auto 0;
+}
+
+#gallery {
+  height: 100%;
+  width: 100%;
+}
+
+p.actions-line {
+  margin-top: -125px;
+  margin-left: -25px;
+  text-align: center;
+}
+
+p.actions-line .second {
+  margin-left: 20px;
+}
+
+footer {
+  border: 0;
+  text-align: center;
+}

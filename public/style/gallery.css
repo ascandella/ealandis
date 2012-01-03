@@ -1,0 +1,13 @@
+#galleryControls {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  z-index: 10;
+}
+
+#galleryControls a {
+  color: white;
+  float: right;
+  padding: 5px;
+}

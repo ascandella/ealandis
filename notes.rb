@@ -27,18 +27,18 @@ get '/notes/:id' do
   @note = Note.find(params[:id])
 end
 
-post '/notes' do
-  note = Note.new({
-    :body => params['body'],
-    :author => params['author'],
-    :address => request.env['REMOTE_ADDR']
-  })
-  note.save
-  content_type :json
-  layout false
-  {
-    :body => note.pretty_body,
-    :author => note.author,
-    :time => note.pretty_time
-  }.to_json
-end
+# post '/notes' do
+#   note = Note.new({
+#     :body => params['body'],
+#     :author => params['author'],
+#     :address => request.env['REMOTE_ADDR']
+#   })
+#   note.save
+#   content_type :json
+#   layout false
+#   {
+#     :body => note.pretty_body,
+#     :author => note.author,
+#     :time => note.pretty_time
+#   }.to_json
+# end
